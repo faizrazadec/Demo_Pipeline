@@ -2,6 +2,8 @@ pipeline {
     agent any
 
     environment {
+        PYTHON = '/usr/bin/python3'
+        PIP = '/usr/bin/pip3'
         VENV = 'venv'
     }
 
